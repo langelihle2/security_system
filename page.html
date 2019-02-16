@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ADD STUDENTS TO DATABASE</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   <header>
+     <nav>
+         <ul>
+            <li><a href="#">Password</a>
+                <ul>
+                    <li><a href="password.php">Display</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Rooms</a>
+                <ul>
+                    <li><a href="">Occupied</a></li>
+                    <li><a href="">Available</a></li>
+                    <li><a href="">Display</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About us</a>
+                <ul>
+                    <li><a href="">Names</a></li>
+                    <li><a href="">Student Numbers</a></li>
+                    <li><a href="">Course</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Alarms</a>
+                <ul>
+                   <li><a href="alarm.php">Triggered</a></li>
+                </ul>
+            </li>
+         </ul>
+        <div class="main-wrapper">
+            <p>SECURITY SMART SYSTEM</p>
+        </div>
+     </nav>
+  </header>
+  <section class="main-container">
+        <div class="main-wrapper">
+            <h3>ADD STUDENTS TO DATABASE</h3>
+            <form class="signup-form" methode = "POST" action = "test.php">
+                <input type ="text" name = "name" placeholder="Name"></br>
+                <input type ="text" name = "surname" placeholder="surname"></br>
+                <input type ="text" name = "serialnumber" placeholder="Serial number"></br>
+                <input type ="text" name = "roomnumber" placeholder="Room number"></br>
+                <button type ="submit" name="ADD">ADD</button>
+            </form>
+            <h3>DELETE STUDENTS FROM  DATABASE</h3>
+            <form class="signup-form" methode = "POST" action = "test.php">
+                <input type ="text" name = "roomnumber" placeholder="Room number">
+                <button type ="submit" name="DELETE">REMOVE</button>
+
+            </form>
+        </div>
+  </section>
+ </body
+</html>
